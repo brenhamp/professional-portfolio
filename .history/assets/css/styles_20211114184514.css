@@ -1,0 +1,39 @@
+:root {
+    --primary-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --secondary-font: Helvetica, Arial, sans-serif;
+    --primary-color: darkslateblue;
+    --secondary-color: azure;
+    font-family:
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header style start */
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: var(--secondary-color);
+    font: var(--primary-font);
+    z-index: 9999;
+  }
+
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 32px;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav {
+    margin: 7px 0;
+  }

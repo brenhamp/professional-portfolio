@@ -1,12 +1,10 @@
-:root {    
-    --headline-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+:root {
     --primary-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --secondary-font: Helvetica, Arial, sans-serif;
-
     --primary-color: darkslateblue;
-    --secondary-color: lightgrey;
+    --secondary-color: azure;
+    font-family:
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -54,7 +52,7 @@ header {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.5vw;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-decoration: none;
   }
 
@@ -64,38 +62,4 @@ header {
     border-radius: 15px;
     text-shadow: none;
   }
-  /*Header style end*/
-
-  /*Hero style start*/
-
-.hero {
-    display: flex; 
-    background-color: var(--secondary-color);
-}
-.hero-text {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-family: var(--secondary-font);
-    text-align: left;
-    font-size: .75vw;
-
-    width: 60%;
-}
-
-.hero h2 {
-    padding: 20px 0 10px 0;
-    font-style: oblique;
-    font-family: var(--headline-font);
-}
-
-.profile-image {
-    display: block;
-    margin-left: auto;
-    margin-right:1vw;
-}
-
-.projects a {
-    text-decoration: none;
-}
+  

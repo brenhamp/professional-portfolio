@@ -1,0 +1,28 @@
+:root {
+    --primary-font: 'Courier New', Courier, monospace;
+    --secondary-font: Helvetica, Arial, sans-serif;
+    --primary-color: darkslateblue;
+    --secondary-color: grey;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: darkgrey;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+  }

@@ -6,7 +6,6 @@
     --primary-color: darkslateblue;
     --secondary-color: lightgrey;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -69,19 +68,19 @@ header {
   /*Hero style start*/
 
 .hero {
-    display: flex; 
-    background-color: var(--secondary-color);
+    display: flex;
 }
 .hero-text {
     display: flex;
     flex: 1;
     justify-content: center;
     flex-wrap: wrap;
+
     font-family: var(--secondary-font);
     text-align: left;
     font-size: .75vw;
-
-    width: 60%;
+    background-color: var(--secondary-color);
+    width: 100%;
 }
 
 .hero h2 {

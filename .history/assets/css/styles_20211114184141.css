@@ -1,0 +1,26 @@
+:root {
+    --primary-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --secondary-font: Helvetica, Arial, sans-serif;
+    --primary-color: darkslateblue;
+    --secondary-color: grey;
+    font-family:
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: darkgrey;
+    font: var(--primary-font);
+    z-index: 9999;
+  }

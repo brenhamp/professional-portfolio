@@ -6,7 +6,6 @@
     --primary-color: darkslateblue;
     --secondary-color: lightgrey;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -67,35 +66,33 @@ header {
   /*Header style end*/
 
   /*Hero style start*/
-
 .hero {
-    display: flex; 
-    background-color: var(--secondary-color);
-}
-.hero-text {
     display: flex;
-    flex: 1;
     justify-content: center;
     flex-wrap: wrap;
+    float: right;
     font-family: var(--secondary-font);
     text-align: left;
     font-size: .75vw;
-
-    width: 60%;
-}
-
-.hero h2 {
-    padding: 20px 0 10px 0;
-    font-style: oblique;
-    font-family: var(--headline-font);
+    background-color: var(--secondary-color);
+    width: 70%;
 }
 
 .profile-image {
-    display: block;
-    margin-left: auto;
-    margin-right:1vw;
+    width: 30%;
+    float: left;
+
 }
 
-.projects a {
+.hero h2{
+padding: 20px 0 20px 0;
+font-style: oblique;
+font-family: var(--headline-font);
+
+}
+
+
+
+.projects h3 {
     text-decoration: none;
 }
