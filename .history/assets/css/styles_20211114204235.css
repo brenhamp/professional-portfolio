@@ -12,16 +12,6 @@
     padding: 0;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-
-
 /* Header style start */
 header {
     padding: 20px 35px;
@@ -92,7 +82,7 @@ header {
     flex-wrap: wrap;
     font-family: var(--secondary-font);
     text-align: left;
-    font-size: 1vw;
+    font-size: .75vw;
     margin: auto 20% auto 20%;
 }
 
@@ -110,75 +100,44 @@ header {
 
 /* About Me style start */
 
-.about-me div h2 {
-    padding: 20px 0 20px 0;
-    font-style: oblique;
-    font-family: var(--headline-font);
-    font-size: 1.5vw;
-}
-
-.about-me {
-    font-family: var(--secondary-font);
-    font-size: 1vw;
-    margin-left: 5%;
-}
-
-
-
 /* About Me style end */
-
-/* Skills and Experience style start */
-
-.skills {
-    text-align: left;
-    margin-left: 5%;
-}
-
-.skills h2 {
-    font-family: var(--headline-font);
-    font-size: 1.25vw;
-    padding: 30px 0 20px 0;
-}
-
-.skills ul li {
-    font-family: var(--secondary-font);
-    font-size: 1vw;
-    line-height: 1.75vw;
-    padding-bottom: 20px;
-}
 
 /* Projects style start */
 
-#projects {}
-
-
-.project-article {
-    background-color: var(--primary-color);
-    padding: 3%;
+.projects {
+    margin: 0 auto;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.project-article {
+    font-family: var(--secondary-font);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 80%;
+    padding: 5%;
+    outline: 1%;
+    outline-style: solid;
+    display: flex;
+    padding: none;
+}
 
-.project-img {
-    margin: 0 auto;
-    width: 500px;
-    height: 250px;
-    object-fit: scale-down;
+.project-article img {
+    width: 50%;
+    flex: 1;
+
 }
 
 .project-article h3 {
     text-decoration: none;
 }
 
-.projects-h2 {
+.projects h2 {
     text-decoration: none;
     font-family: var(--primary-font);
-    text-align: center;
-    font-size: 2vw;
-    padding-bottom: 30px;
+    color: var(--secondary-color)
 }
 
 /* Projects style end */
-
-
-@media screen and (max-width: 575px) {}

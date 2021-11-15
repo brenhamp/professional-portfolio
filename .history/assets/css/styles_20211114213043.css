@@ -15,12 +15,15 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
   }
 
+.flex-child {
+    width: 30%;
+    margin: 5px;
+    height: 500px;
+}
 
 /* Header style start */
 header {
@@ -155,27 +158,31 @@ header {
 .project-article {
     background-color: var(--primary-color);
     padding: 3%;
+    max-width: 30%;    
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
-.project-img {
-    margin: 0 auto;
-    width: 500px;
-    height: 250px;
-    object-fit: scale-down;
+.project-article div img {
+    flex: 1 30%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+
 }
 
 .project-article h3 {
     text-decoration: none;
 }
 
-.projects-h2 {
+#projects h2 {
     text-decoration: none;
     font-family: var(--primary-font);
     text-align: center;
-    font-size: 2vw;
-    padding-bottom: 30px;
 }
 
 /* Projects style end */

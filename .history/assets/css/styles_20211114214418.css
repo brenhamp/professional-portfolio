@@ -21,6 +21,11 @@
     width: 100%;
   }
 
+.flex-child {
+    width: 30%;
+    margin: 5px;
+    height: 500px;
+}
 
 /* Header style start */
 header {
@@ -159,11 +164,12 @@ header {
 }
 
 
-.project-img {
-    margin: 0 auto;
-    width: 500px;
-    height: 250px;
-    object-fit: scale-down;
+.project-article img {
+    flex: 1 30%;
+    width: 400px;
+    height: 400px;
+    object-fit:contain;
+    align-items: center;
 }
 
 .project-article h3 {

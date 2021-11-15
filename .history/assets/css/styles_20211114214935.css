@@ -21,6 +21,11 @@
     width: 100%;
   }
 
+.flex-child {
+    width: 30%;
+    margin: 5px;
+    height: 500px;
+}
 
 /* Header style start */
 header {
