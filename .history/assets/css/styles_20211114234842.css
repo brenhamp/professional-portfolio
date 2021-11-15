@@ -417,6 +417,8 @@ footer {
           .hero {
             width: 100%;
             text-align: left;
+            margin: 0 auto;
+            Padding: 0;
           }
           
           .hero h2 {

@@ -333,7 +333,7 @@ footer {
         font-size: 3vw;
       }
     
-      footer h2 {
+      footer h2, footer div {
         text-align: center;
         width: 100%;
       }
@@ -373,7 +373,7 @@ footer {
           font-size: 4vw;
       }
 
-      .projects-h2 {
+      .projects h2 {
           font-size: 4vw;
       }
   
@@ -381,80 +381,3 @@ footer {
           font-size: 4vw;
       }
     }
-    
-/* Media query for phones */
-
-@media screen and (max-width: 575px) {
-    @media screen and (max-width: 768px) {
-        header {
-            padding-bottom: 0;
-            justify-content: center;
-            position: relative;
-            font-size: 6vw;
-          }
-        
-          header h1 {
-            width: 100%;
-            text-align: center;
-            font-size: 5vw;
-          }
-        
-          header nav ul {
-            margin-top: 20px;
-            width: 100%;
-            justify-content: center;
-          }
-        
-          header nav ul li a {
-            font-size: 6vw;
-          }
-        
-          footer {
-            text-align: center;
-            width: 100%;
-          }
-        
-          .hero {
-            width: 100%;
-            text-align: left;
-          }
-          
-          .hero h2 {
-              font-size: 6vw;
-          }
-        
-          .hero-text {
-            font-size: 5vw;
-            line-height: 4vh;
-          }
-      
-          .about-me div h2 {
-              font-size: 6vw;
-          }
-          
-          .about-me {
-              font-size: 4vw;
-              line-height: 5vh;
-          }
-      
-          .skills h2 {
-              font-size: 6vw;
-          }
-      
-          .skills ul li {
-              font-size: 4vw;
-              line-height: 5vh; 
-          }
-          .contact-section {
-              font-size: 5vw;
-          }
-    
-          .projects-h2 {
-              font-size: 5vw;
-          }
-      
-          .contact-section h2 {
-              font-size: 5vw;
-          }
-        }
-}

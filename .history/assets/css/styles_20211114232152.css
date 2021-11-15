@@ -21,6 +21,7 @@
     width: 100%;
   }
 
+
 /* Header style start */
 header {
     padding: 20px 35px;
@@ -77,7 +78,6 @@ header {
   header nav ul li a:visited {
       color: var(--secondary-color);
   }
-
   /*Header style end*/
 
   /*Hero style start*/
@@ -93,7 +93,7 @@ header {
     font-family: var(--secondary-font);
     text-align: left;
     font-size: 1vw;
-    margin: auto 10% auto 10%;
+    padding: auto 20% auto 20%;
 }
 
 .hero h2 {
@@ -111,7 +111,7 @@ header {
 /* About Me style start */
 
 .about-me div h2 {
-    padding: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
     font-style: oblique;
     font-family: var(--headline-font);
     font-size: 1.5vw;
@@ -123,6 +123,8 @@ header {
     margin-left: 5%;
     line-height: 1.5vw;
 }
+
+
 
 /* About Me style end */
 
@@ -175,7 +177,7 @@ header {
 
 .main-project-img {
     margin: 10px auto;
-    width: 750px;
+    width: 800px;
     height: 400px;
     object-fit: scale-down;
 }
@@ -187,7 +189,7 @@ header {
 
 .main-project-article h3 {
     color: var(--secondary-color);
-    font-family: var(--primary-font);
+    font-family: var(--secondary-font);
     font-size: 2.5vw;
 }
 
@@ -210,11 +212,6 @@ header {
 .contact-section {
     font-family: var(--secondary-font);
     font-size: 1.25vw;
-    padding-left: 20px;
-}
-address {
-    padding: 10px 0 10px 20px;
-    line-height: 3vh;
 }
 
 .contact-section h2 {
@@ -224,21 +221,10 @@ address {
     font-size: 1.5vw;
 }
 
-/* Contact style end */
-
-/* Footer start */
-
-footer {
-    font-family: var(--headline-font);
-    font-weight: bold;
-    text-align: center;
-}
-/* Footer end */
-
 
 /* Media queries for phones */
 
-  /* Media queries for smaller desktop screens and laptops */
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
     header {
       padding-bottom: 0;
@@ -299,162 +285,4 @@ footer {
         font-size: 2vw;
         line-height: 3vh; 
     }
-    .contact-section {
-        font-size: 3vw;
-    }
-
-    .contact-section h2 {
-        font-size: 4vw;
-    }
   }
-
-   /* Media query for tablets and smaller */
-   @media screen and (max-width: 768px) {
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-        font-size: 3vw;
-      }
-    
-      header h1 {
-        width: 100%;
-        text-align: center;
-        font-size: 3vw;
-      }
-    
-      header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-      }
-    
-      header nav ul li a {
-        font-size: 3vw;
-      }
-    
-      footer h2 {
-        text-align: center;
-        width: 100%;
-      }
-    
-      .hero {
-        width: 100%;
-        text-align: center;
-      }
-      
-      .hero h2 {
-          font-size: 3vw;
-      }
-    
-      .hero-text {
-        font-size: 2vw;
-        line-height: 3vh;
-      }
-  
-      .about-me div h2 {
-          font-size: 5vw;
-      }
-      
-      .about-me {
-          font-size: 3vw;
-          line-height: 4vh;
-      }
-  
-      .skills h2 {
-          font-size: 5vw;
-      }
-  
-      .skills ul li {
-          font-size: 3vw;
-          line-height: 4vh; 
-      }
-      .contact-section {
-          font-size: 4vw;
-      }
-
-      .projects-h2 {
-          font-size: 4vw;
-      }
-  
-      .contact-section h2 {
-          font-size: 4vw;
-      }
-    }
-    
-/* Media query for phones */
-
-@media screen and (max-width: 575px) {
-    @media screen and (max-width: 768px) {
-        header {
-            padding-bottom: 0;
-            justify-content: center;
-            position: relative;
-            font-size: 6vw;
-          }
-        
-          header h1 {
-            width: 100%;
-            text-align: center;
-            font-size: 5vw;
-          }
-        
-          header nav ul {
-            margin-top: 20px;
-            width: 100%;
-            justify-content: center;
-          }
-        
-          header nav ul li a {
-            font-size: 6vw;
-          }
-        
-          footer {
-            text-align: center;
-            width: 100%;
-          }
-        
-          .hero {
-            width: 100%;
-            text-align: left;
-          }
-          
-          .hero h2 {
-              font-size: 6vw;
-          }
-        
-          .hero-text {
-            font-size: 5vw;
-            line-height: 4vh;
-          }
-      
-          .about-me div h2 {
-              font-size: 6vw;
-          }
-          
-          .about-me {
-              font-size: 4vw;
-              line-height: 5vh;
-          }
-      
-          .skills h2 {
-              font-size: 6vw;
-          }
-      
-          .skills ul li {
-              font-size: 4vw;
-              line-height: 5vh; 
-          }
-          .contact-section {
-              font-size: 5vw;
-          }
-    
-          .projects-h2 {
-              font-size: 5vw;
-          }
-      
-          .contact-section h2 {
-              font-size: 5vw;
-          }
-        }
-}

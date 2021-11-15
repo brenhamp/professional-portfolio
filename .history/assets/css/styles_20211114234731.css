@@ -396,7 +396,7 @@ footer {
           header h1 {
             width: 100%;
             text-align: center;
-            font-size: 5vw;
+            font-size: 6vw;
           }
         
           header nav ul {
@@ -416,7 +416,7 @@ footer {
         
           .hero {
             width: 100%;
-            text-align: left;
+            text-align: center;
           }
           
           .hero h2 {
