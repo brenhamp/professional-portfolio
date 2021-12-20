@@ -392,10 +392,6 @@ footer {
             position: relative;
             font-size: 6vw;
           }
-
-          .profile-image {
-            width: 
-          }
         
           header h1 {
             width: 100%;
@@ -449,15 +445,6 @@ footer {
               font-size: 4vw;
               line-height: 5vh; 
           }
-
-          .main-project-img {
-            margin: 10px auto;
-            width: 75vw;
-            /* height: 75vw; */
-            object-fit: scale-down;
-            display: inline-block;
-        }
-
           .contact-section {
               font-size: 5vw;
           }
